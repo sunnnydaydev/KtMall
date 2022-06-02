@@ -16,3 +16,4 @@ rootProject.name = "KtMall"
 include ':app'
 include ':BaseLibrary'
 include ':Provider'
+include ':UserCenter'

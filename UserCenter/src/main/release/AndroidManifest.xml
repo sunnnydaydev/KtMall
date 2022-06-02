@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.user">
+    <!--
+    A launchAble activity must be exported as of Android 12,
+    which also makes it available to other apps.
+    -->
+    <application
+        android:allowBackup="true">
+        <activity
+            android:name=".ui.RegisterActivity">
+        </activity>
+    </application>
+
+</manifest>
